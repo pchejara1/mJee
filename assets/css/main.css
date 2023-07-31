@@ -1,0 +1,110 @@
+:root{
+    --primary: #B099DC;
+    --secondary: #FFC539;
+    --text-grey: #333333;
+    --white: #ffffff;
+    --black: #000000;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+}
+p{
+    font-size: 1.5rem;
+}
+.pad-3 {
+    padding: 3px 0;
+}
+
+.pad-5 {
+    padding: 5px 0;
+}
+
+.pad-10 {
+    padding: 10px 0;
+}
+
+.pad-15 {
+    padding: 15px 0;
+}
+
+.pad-20 {
+    padding: 20px 0;
+}
+
+.pad-25 {
+    padding: 25px 0;
+}
+
+.pad-30 {
+    padding: 3rem 0;
+}
+
+.pad-40 {
+    padding: 4rem 0;
+}
+
+.pad-50 {
+    padding: 5rem 0;
+}
+
+.pad-60 {
+    padding: 60px 0;
+}
+.mb-25{
+    margin-bottom: 2.5rem;
+}
+
+
+img {
+    width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*{
+    /* border: 1px solid grey; */
+}
+
+
+
+
+.overlay {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+    background-color: var(--black);
+}
+
+.overlay-content {
+    position: relative;
+    margin-left: 2rem;
+    /* top: 25%; */
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+.overlay .closebtn {
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 40px;
+
+    color: var(--white)
+}

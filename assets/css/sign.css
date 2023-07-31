@@ -1,0 +1,126 @@
+.sign-section .container{
+    background: url(../images/sign/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 5rem 0;
+}
+.sign-card{
+    background-color: #242424;
+    color: var(--white);
+    border-radius: 0.625rem;
+    margin: 7% 2rem;
+    padding: 2rem;
+}
+.sign-card-intro{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.sign-card-intro h4{
+    color: #FFF;
+    font-family: poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.input-container{
+    /* width: 100%; */
+    width: inherit;
+    background-color: #eee;
+    border-radius: 4px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.input-container input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin: 0 8px;
+}
+.input-container .country-code{
+    margin-bottom: 0;
+    color: #999;
+}
+.input-container-transparent{
+    text-align: left;
+    margin: 1rem;
+    /* display: flex; */
+    padding: 0 1rem;
+    /* border: 1px solid red; */
+}
+.sign-btn{
+    background: #AF182B;
+    border: 1px solid #949494;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.sign-card p{
+    color: #D1D1D1;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.sign-card a{
+    color: var(--white);
+    font-weight: 600;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .sign-section .container{
+        padding: 0;
+    }
+    .sign-card-intro{
+        display: block;
+    }
+    .sign-card{
+        padding: 1rem;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .sign-card-intro{
+        display: block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .sign-card-intro{
+        display: block;
+    }
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sign-card-intro{
+        display: block;
+    }
+    .sign-section .container{
+        padding: 0;
+    }
+    .sign-card {
+        margin: 7% 5px;
+        padding: 2rem 0;
+    }
+}

@@ -1,19 +1,23 @@
 :root{
-    --primary: #B099DC;
-    --secondary: #FFC539;
-    --text-grey: #333333;
+    --primary: #D1243A;
+    --secondary: #FFA425;
+    --text-grey: #272727;
     --white: #ffffff;
     --black: #000000;
 }
 body{
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    padding: 0;
-    margin: 0;
+    padding: 0 ;
+    margin: 0 ;
     margin: auto;
 }
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
 p{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .pad-3 {
     padding: 3px 0;
@@ -60,7 +64,7 @@ p{
 
 
 img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 input {
@@ -71,9 +75,11 @@ a {
     text-decoration: none;
 }
 
-*{
+/* .row>*{
+    padding: 0;
+    margin: 0; */
     /* border: 1px solid grey; */
-}
+
 
 
 
@@ -108,3 +114,6 @@ a {
 
     color: var(--white)
 }
+
+
+
